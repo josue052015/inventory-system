@@ -3559,7 +3559,7 @@ fieldset:disabled .btn {
 }
 .btn-danger {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #fa896b;
+    --bs-btn-bg: red;
     --bs-btn-border-color: #fa896b;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #d5745b;
@@ -16573,4 +16573,30 @@ ul {
 }
 .logo-img img{
     width: 100px;
+}
+.form-row{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.form-row .item{
+    width: 100%;
+}
+.cancel-btn,
+.cancel-btn:hover,
+.cancel-btn:focus,
+.cancel-btn:active
+{
+    background: #999999;
+    color: #FFF;
+}
+
+.code-tag{
+  /*   margin-left: 3px; */
+}
+#tagContainer{
+    margin-top: 10px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }

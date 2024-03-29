@@ -21,7 +21,7 @@ $(function () {
     },
 
 
-    colors: ["#5D87FF", "#49BEFF"],
+    colors: ["#31a24c", "#54cf71"],
 
 
     plotOptions: {
@@ -110,13 +110,13 @@ $(function () {
   // =====================================
   var breakup = {
     color: "#adb5bd",
-    series: [38, 40, 25],
-    labels: ["2022", "2021", "2020"],
+    series: [20,60],
+    labels: ["Disponible", "Consumido"],
     chart: {
       width: 180,
       type: "donut",
       fontFamily: "Plus Jakarta Sans', sans-serif",
-      foreColor: "#adb0bb",
+      foreColor: "#31a24c",
     },
     plotOptions: {
       pie: {
@@ -138,7 +138,7 @@ $(function () {
     legend: {
       show: false,
     },
-    colors: ["#5D87FF", "#ecf2ff", "#F9F9FD"],
+    colors: ["#31a24c", "#F9F9FD"],
 
     responsive: [
       {
@@ -179,7 +179,7 @@ $(function () {
     series: [
       {
         name: "Earnings",
-        color: "#49BEFF",
+        color: "#54cf71",
         data: [25, 66, 20, 40, 12, 58, 20],
       },
     ],
@@ -188,7 +188,7 @@ $(function () {
       width: 2,
     },
     fill: {
-      colors: ["#f3feff"],
+      colors: ["#54cf71"],
       type: "solid",
       opacity: 0.05,
     },
